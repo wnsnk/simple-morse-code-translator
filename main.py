@@ -27,7 +27,6 @@ def translate_text_to_morse():
 def translate_morse_to_text():
     morse_code_sentence = input(
         'Please type the sentence you would like to convert to morse code: \n').split()
-    # morse_code_sentence = '- . ... - / ... . -. - . -. -.-. . / .---- / ..--- / ...--'.split()
     translation = []
     for letter in morse_code_sentence:
         try:
