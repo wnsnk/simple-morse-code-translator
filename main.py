@@ -8,7 +8,7 @@ morse_code_to_text = {value: key for key, value in morse_code.items()}
 
 def translate_text_to_morse():
     sentence = input(
-        'Please type the sentence you would like to convert to morse code: \n')
+        'Please type the sentence you would like to convert to morse code: \n').lower()
     translation = []
     for letter in sentence:
         try:
