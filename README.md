@@ -8,7 +8,7 @@ This program can translate text to Morse Code and Morse Code back to text.
 ![Morse Code Screenshot](/screenshots/morse%20code%20translator.png "Morse Code Translator")
 ## Installation
 ```bash
-git clone https://github.com/wnsnk/simple-morse-code-translator
+git clone https://github.com/wnsnk/simple-morse-code-translator.git
 cd simple-morse-code-translator
 python main.py
 ```
